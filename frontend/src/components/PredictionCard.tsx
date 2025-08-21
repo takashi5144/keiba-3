@@ -1,5 +1,5 @@
-import { RacePrediction } from '@/types';
-import { formatPercentage, formatCurrency, getColorByExpectedValue } from '@/lib/utils';
+import { RacePrediction } from '../types';
+import { formatPercentage, formatCurrency, getColorByExpectedValue } from '../lib/utils';
 import { Trophy, Clock, MapPin } from 'lucide-react';
 
 interface PredictionCardProps {

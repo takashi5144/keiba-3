@@ -1,5 +1,5 @@
-import { Model } from '@/types';
-import { formatPercentage } from '@/lib/utils';
+import { Model } from '../types';
+import { formatPercentage } from '../lib/utils';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 interface ModelPerformanceProps {
