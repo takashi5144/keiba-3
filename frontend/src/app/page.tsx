@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { format } from 'date-fns';
 import { Activity, TrendingUp, DollarSign, Award } from 'lucide-react';
-import { api } from '@/lib/api';
+import { api } from '@/lib/api-client';
 import { formatCurrency, formatPercentage } from '@/lib/utils';
 import PredictionCard from '@/components/PredictionCard';
 import MetricsCard from '@/components/MetricsCard';

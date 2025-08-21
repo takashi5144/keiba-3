@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useMutation } from '@tanstack/react-query';
 import { format, subMonths } from 'date-fns';
 import { TrendingUp, TrendingDown, DollarSign, Target, Calendar, PlayCircle } from 'lucide-react';
-import { api } from '@/lib/api';
+import { api } from '@/lib/api-client';
 import { BacktestResult } from '@/types';
 import { formatCurrency, formatPercentage } from '@/lib/utils';
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';

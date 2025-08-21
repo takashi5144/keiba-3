@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useQuery, useMutation } from '@tanstack/react-query';
 import { format } from 'date-fns';
 import { Search, Calendar, ChevronRight } from 'lucide-react';
-import { api } from '@/lib/api';
+import { api } from '@/lib/api-client';
 import { RacePrediction } from '@/types';
 import { formatPercentage, formatCurrency, getColorByProbability } from '@/lib/utils';
 
