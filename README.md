@@ -2,6 +2,8 @@
 
 競馬のレースデータを収集・分析し、予想に役立つインサイトを提供するWebアプリケーション。
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftakashi5144%2Fkeiba-3&project-name=keiba-frontend&repository-name=keiba-frontend&root-directory=frontend&env=NEXT_PUBLIC_API_URL&envDescription=Backend%20API%20URL&envExample=https%3A%2F%2Fyour-api.com%2Fapi)
+
 ## 🎯 主要機能
 
 - **データ収集**: netkeibaから過去10年以上のレースデータを自動収集
