@@ -1,12 +1,4 @@
 {
-  "functions": {
-    "frontend/src/app/**/*.tsx": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "buildCommand": "cd frontend && npm install && npm run build",
-  "outputDirectory": "frontend/.next",
-  "installCommand": "cd frontend && npm install",
-  "framework": null,
-  "rootDirectory": "frontend"
+  "outputDirectory": "frontend/.next"
 }
