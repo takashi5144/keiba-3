@@ -17,18 +17,30 @@ export default function Dashboard() {
   const { data: predictions, isLoading: predictionsLoading } = useQuery({
     queryKey: ['predictions', 'today'],
     queryFn: async () => {
-      const response = await api.prediction.predictToday({});
-      return response.data;
+      try {
+        const response = await api.prediction.predictToday({});
+        return response.data;
+      } catch (error) {
+        // Return demo data if API is not available
+        return { predictions: [], summary: {} };
+      }
     },
+    retry: false,
   });
 
   // Fetch available models
   const { data: models } = useQuery({
     queryKey: ['models'],
     queryFn: async () => {
-      const response = await api.prediction.getModels();
-      return response.data;
+      try {
+        const response = await api.prediction.getModels();
+        return response.data;
+      } catch (error) {
+        // Return demo data if API is not available
+        return [];
+      }
     },
+    retry: false,
   });
 
   // Calculate summary metrics
