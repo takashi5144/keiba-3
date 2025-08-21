@@ -1,4 +1,8 @@
+# 競馬予測AI - フロントエンド
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+Build Status: Fixed module resolution issues (2025-08-21)
 
 ## Getting Started
 
